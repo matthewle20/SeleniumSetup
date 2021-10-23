@@ -1,2 +1,2 @@
-# SeleniumLocalShipment
- Repo for Selenium Testcases for Local Shipment
+# SeleniumSetup
+ Repo for quick Selenium testcases using Selenium WebDriver
