@@ -1,5 +1,6 @@
 package automationFramework;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -19,7 +20,13 @@ public class SampleCase {
 	}
 	
 	public void startWebDriver() {
-		driver.get(url);
+		driver.get("http://www.google.com");
+	}
+	
+	public void run() {
+		// click Google Search button
+		driver.findElement(By.name("q")).sendKeys("Selenium WebDriver");
+		driver.findElement(By.name("btnK")).submit();
 	}
 	
 	public void closeWebDriver() {
