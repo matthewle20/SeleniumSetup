@@ -27,7 +27,7 @@ class SampleCaseTest {
 	}
 
 	@Test
-	void testMain() {
+	void testSampleCase() {
 		fail("Not yet implemented");
 	}
 
